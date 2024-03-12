@@ -1,3 +1,7 @@
+url: https://regularegg.github.io
+baseurl: /regularegg.github.io
+author: Mary L
+
 collections:
   authors:
     output: true
@@ -17,3 +21,9 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
