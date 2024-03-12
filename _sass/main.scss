@@ -1,5 +1,6 @@
 .current {
-  color: green;
+  color: white;
+  background-color: blue;
 }
 
 //fonts
@@ -16,10 +17,58 @@
   font-style: normal;
 }
 
+.cousine-regular {
+  font-family: "Cousine", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cousine-regular-italic {
+  font-family: "Cousine", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.cousine-bold {
+  font-family: "Cousine", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cousine-bold-italic {
+  font-family: "Cousine", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
 //text styling
 html, body { background: white; }
 
+body{
+    max-width: 640px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
 h1 {
+  color: blue;
+  font-family:"Silkscreen", monospace;
+}
+
+h2{
+  font-family: "Cousine", monospace;
+  line-height: 1.24;
+}
+
+
+a, p{
   color: black;
-  font-family:monospace;
+  font-family: "Cousine", monospace;
+  line-height: 1.24;
+}
+
+a:active, a:hover{
+  color: white;
+  background-color: blue;
 }
