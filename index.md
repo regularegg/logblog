@@ -11,5 +11,5 @@ Welcome to this website - I am your host and friend. here is a picture of my dog
 
 
 
-![angery](/assets/images/angery.jpg)
+![angery]({{site.url}}/assets/images/angery.jpg)
 

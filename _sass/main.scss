@@ -48,7 +48,13 @@ html, body { background: white; }
 body{
     max-width: 640px;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 16px;
+}
+
+.content-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Use viewport height */
 }
 
 h1 {
@@ -61,6 +67,15 @@ h2{
   line-height: 1.24;
 }
 
+h3{
+  font-family: "Cousine", monospace;
+}
+
+h4{
+  font-family: "Cousine", monospace;
+}
+
+
 
 a, p{
   color: black;
@@ -71,4 +86,28 @@ a, p{
 a:active, a:hover{
   color: white;
   background-color: blue;
+}
+
+nav a{
+  margin-right: 10px;
+}
+
+footer {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    border-top: 1px solid black;
+    position: fixed;
+    bottom: 0;
+    background: white;
+}
+
+footer a {
+    margin-left: 10px;
+}
+
+img {
+  max-width: 640px;
 }
